@@ -25,40 +25,46 @@ class TaxRate(object):
             corresponding tax rate
         """
         page = requests.get(ato_url, verify=False)
-        tree = html.fromstring(page.content)
-        result = []
-        for i in range(2, 7):
-            taxable_income_range = tree.xpath('//*[@id="ctl00_MainPlaceHolder_contentWrapperDropZone_columnDisplay_ctl00_controlcolumn_ctl00_WidgetHost_updatepanel"]/div/table[1]/tbody/tr[' + str(i) + ']/td[1]/p/text()')
-            target_webcontent_string = str(taxable_income_range)
-            transformed_webcontent_string_midway = target_webcontent_string.replace('over', '999,999')
-            # replace 'over' with numeric value
-            transformed_webcontent_string_final0 = transformed_webcontent_string_midway.replace(',', '')
-            # remove comma
-            transformed_webcontent_string_final1 = transformed_webcontent_string_final0.replace('\u2013', '')
-            # remove dash
-            boarder_list = re.findall(r"(\d+)", transformed_webcontent_string_final1)
-            income_range_rate = [float(x) for x in boarder_list]
-            # extract the TAX_RATE
-            tax_rate_description = tree.xpath('//*[@id="ctl00_MainPlaceHolder_contentWrapperDropZone_columnDisplay_ctl00_controlcolumn_ctl00_WidgetHost_updatepanel"]/div/table[1]/tbody/tr[' + str(i) + ']/td[2]/p/text()')
-            target_webcontent_string = str(tax_rate_description)
-            transformed_webcontent_string_digitized = target_webcontent_string.replace('Nil','0c')
-            transformed_webcontent_string_no_comma = transformed_webcontent_string_digitized.replace(',','')
-            tax_rate_info = float(re.findall(r"(\d+.?\d*){1}c", transformed_webcontent_string_no_comma)[0])/100
-            tax_rate_base_unfiltered = re.findall(r"\$(\d+.?\d*)?.[plus]+", transformed_webcontent_string_no_comma)
-            if len(tax_rate_base_unfiltered) != 0:
-                tax_rate_base = float(tax_rate_base_unfiltered[0])
-            else:
-                tax_rate_base = 0
-            # print(tax_rate_info, tax_rate_base)
-
-            income_range_rate.append(tax_rate_info)
-            income_range_rate.append(tax_rate_base)
-            result.append(tuple(income_range_rate))
-        print('#' * 80)
-        print('tax rate extracted is as follow list:')
-        print(result)
-        print('#' * 80)
-        self._taxrate_list = result
+        if page.status_code != 200:
+            print 'WEBSITE NOT READY'
+        else:
+            tree = html.fromstring(page.content)
+            result = []
+            for i in range(2, 7):
+                taxable_income_range = tree.xpath('//*[@id="ctl00_MainPlaceHolder_contentWrapperDropZone_columnDisplay_ctl00_controlcolumn_ctl00_WidgetHost_updatepanel"]/div/table[1]/tbody/tr[' + str(i) + ']/td[1]/p/text()')
+                target_webcontent_string = str(taxable_income_range)
+                if len(taxable_income_range) == 0:
+                    print 'breaking'
+                    
+                else: 
+                    transformed_webcontent_string_midway = target_webcontent_string.replace('over', '999,999')
+                    # replace 'over' with numeric value
+                    transformed_webcontent_string_final0 = transformed_webcontent_string_midway.replace(',', '')
+                    # remove comma
+                    transformed_webcontent_string_final1 = transformed_webcontent_string_final0.replace('\u2013', '')
+                    # remove dash
+                    boarder_list = re.findall(r"(\d+)", transformed_webcontent_string_final1)
+                    income_range_rate = [float(x) for x in boarder_list]
+                    # extract the TAX_RATE
+                    tax_rate_description = tree.xpath('//*[@id="ctl00_MainPlaceHolder_contentWrapperDropZone_columnDisplay_ctl00_controlcolumn_ctl00_WidgetHost_updatepanel"]/div/table[1]/tbody/tr[' + str(i) + ']/td[2]/p/text()')
+                    target_webcontent_string = str(tax_rate_description)
+                    transformed_webcontent_string_digitized = target_webcontent_string.replace('Nil','0c')
+                    transformed_webcontent_string_no_comma = transformed_webcontent_string_digitized.replace(',','')
+                    tax_rate_info = float(re.findall(r"(\d+.?\d*){1}c", transformed_webcontent_string_no_comma)[0])/100
+                    tax_rate_base_unfiltered = re.findall(r"\$(\d+.?\d*)?.[plus]+", transformed_webcontent_string_no_comma)
+                    if len(tax_rate_base_unfiltered) != 0:
+                        tax_rate_base = float(tax_rate_base_unfiltered[0])
+                    else:
+                        tax_rate_base = 0
+                    # print(tax_rate_info, tax_rate_base)
+                    income_range_rate.append(tax_rate_info)
+                    income_range_rate.append(tax_rate_base)
+                    result.append(tuple(income_range_rate))
+            print('#' * 80)
+            print('tax rate extracted is as follow list:')
+            print(result)
+            print('#' * 80)
+            self._taxrate_list = result
 
     def calculate_tax(self, salary):
         """calculate_tax according to input tax rate
