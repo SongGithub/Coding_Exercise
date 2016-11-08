@@ -1,5 +1,6 @@
 # project related
 result/
+config/tax_rate_backup/taxrate*
 
 
 # Byte-compiled / optimized / DLL files

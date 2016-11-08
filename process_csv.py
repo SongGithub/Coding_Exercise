@@ -5,7 +5,7 @@ import settings
 
 def read_csv(filename):
     """read csv file content then output the 'reader object'"""
-    f_obj = open(filename, 'r')
+    f_obj = open(filename, 'rU')
     reader = csv.reader(f_obj)
     #following section skips the header row
     has_header = csv.Sniffer().has_header(f_obj.read(1024))
