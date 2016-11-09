@@ -29,6 +29,10 @@ Expected Results
 - Output csv file with time stamp can be found in programs 'result' folder.
 - Recently generated tax rate JSON file can be found in Config/tax_rate_backup folder.
 
+Test
+=====
+- Simply run `nosetests`
+
 TO-DO
 =====
 - Docker-Containerise so that configuration steps are reduced to only one: get Docker then just run!
