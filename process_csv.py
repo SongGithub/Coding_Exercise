@@ -16,16 +16,19 @@ class ProcessCsvFile(object):
 
     def read_csv(self):
         """read csv file content then output the 'reader object'"""
-        f_obj = open(self._input_filename, 'rU')
-        reader = csv.reader(f_obj)
-        #following section skips the header row
-        has_header = csv.Sniffer().has_header(f_obj.read(1024))
-        f_obj.seek(0)  # rewind
-        incsv = csv.reader(f_obj)
-        if has_header:
-            next(incsv)  # skip header row
-        self._input_object = f_obj
-        return reader
+        try:
+            f_obj = open(self._input_filename, 'rU')
+            reader = csv.reader(f_obj)
+            #following section skips the header row
+            has_header = csv.Sniffer().has_header(f_obj.read(1024))
+            f_obj.seek(0)  # rewind
+            incsv = csv.reader(f_obj)
+            if has_header:
+                next(incsv)  # skip header row
+            self._input_object = f_obj
+            return reader
+        except IOError as e:
+            print "I/O error occured! (csv) ({0}): {1}".format(e.errno, e.strerror)
 
     def close_csv(self):
         self._input_object.close()

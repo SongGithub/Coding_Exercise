@@ -19,5 +19,17 @@ Assumptions
 How To Run?
 ======
 - For Mac users `sudo easy_install pip`. And for Windows users, please go here https://pypi.python.org/pypi/pip#downloads to get pip installation packages.
+- `pip install virtualenv`
+- start your virtualenv by running `New-VirtualEnvironment xyz` (virtualenv protects your environment from being polluted by this project's required software packages)
 - `pip install -r requirement`
 - `python main.py`
+
+Expected Results
+==============
+- Output csv file with time stamp can be found in programs 'result' folder.
+- Recently generated tax rate JSON file can be found in Config/tax_rate_backup folder.
+
+TO-DO
+=====
+- Docker-Containerise so that configuration steps are reduced to only one: get Docker then just run!
+- 

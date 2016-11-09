@@ -17,8 +17,12 @@ csv_obj = ProcessCsvFile(settings.INPUT_PATH,result_filepath)
 csv_read_result = csv_obj.read_csv()
 csv_obj.write_csv_header()
 
-for row in csv_read_result:
-    csv_obj.write_csv(
-                          payslip_functions.number_cruncher(row, tax_calculation.calculate_tax(float(row[2])))
-                	)
-csv_obj.close_csv()
+try: 
+	for row in csv_read_result:
+	    csv_obj.write_csv(
+	                          payslip_functions.number_cruncher(row, tax_calculation.calculate_tax(float(row[2])))
+	                	)
+	csv_obj.close_csv()
+
+except TypeError as e:
+            print "File Read Error Occured!"

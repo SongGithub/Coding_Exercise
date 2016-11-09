@@ -75,9 +75,13 @@ class TaxRate(object):
     def __get_taxrate_local_json__(self, tax_rate_file_path):
         tax_rate_file_path = os.path.join(settings.TAX_RATE_BACKUP_PATH,settings.TAX_RATE_DEFAULT_FILENAME)
         print 'reading taxrate from local json' + tax_rate_file_path
-        with open(tax_rate_file_path) as data_file:
-            data = json.load(data_file)
-        return data
+        try: 
+            with open(tax_rate_file_path) as data_file:
+                data = json.load(data_file)
+            return data
+        except IOError as e: 
+            print "I/O error occured! Program can't proceed without tax rate! \n ({0}): {1}".format(e.errno, e.strerror)
+            return None
 
     def __init__(self, ato_url, tax_rate_file_path):
         """init with generation of tax rate base on ATO offical page's data
@@ -89,6 +93,8 @@ class TaxRate(object):
             corresponding tax rate
         """
         get_online_taxrate = self.__get_taxrate_online__(ato_url)
+        self._ato_addr = ato_url
+        self._tax_rate_file_path = tax_rate_file_path
         # variable get_online_taxrate is intentionally created so that it only runs once to save time in case
         # ATO online services are normal.
         if  get_online_taxrate == -1:
@@ -96,6 +102,15 @@ class TaxRate(object):
         else:
             result = get_online_taxrate
         self._taxrate_list = result
+
+    def get_taxrate(self):
+        return self._taxrate_list
+
+    def get_ato_addr(self):
+        return self._ato_addr
+
+    def get_tax_rate_file_path(self):
+        return self._tax_rate_file_path
 
     def calculate_tax(self, salary):
         """calculate_tax according to input tax rate table
