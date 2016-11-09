@@ -2,22 +2,23 @@
 
 import sys, payslip_functions, calculate_tax_rates, process_csv, settings, sys, os
 import datetime
+from process_csv import ProcessCsvFile
 
-csv_read_result = process_csv.read_csv(settings.INPUT_PATH)
-
-tax_rates_instance = calculate_tax_rates.TaxRate('https://www.ato.gov.au/rates/individual-income-tax-rates/',
+tax_calculation = calculate_tax_rates.TaxRate(
+													settings.TAX_RATE_ATO_ADDRESS,
 													settings.TAX_RATE_BACKUP_PATH
 												)
-
 result_filename = 'result_' + str(datetime.datetime.now().strftime("%Y%m%d_%H%M%S")) + '.csv'
 result_filepath = os.path.join(settings.RESULT_DIR, result_filename)
 # result file name needs to be calculated on the spot and timestamped on the filename
 # in order to avoid conflict on file name.
-process_csv.write_csv_header(result_filepath)
+
+csv_obj = ProcessCsvFile(settings.INPUT_PATH,result_filepath)
+csv_read_result = csv_obj.read_csv()
+csv_obj.write_csv_header()
+
 for row in csv_read_result:
-    print '\n', 'Previewing result for salary: ', row[2]
-    print payslip_functions.number_cruncher(row, tax_rates_instance.calculate_tax(float(row[2])))
-    process_csv.write_csv(
-                          result_filepath,
-                          payslip_functions.number_cruncher(row, tax_rates_instance.calculate_tax(float(row[2])))
-                         )
+    csv_obj.write_csv(
+                          payslip_functions.number_cruncher(row, tax_calculation.calculate_tax(float(row[2])))
+                	)
+csv_obj.close_csv()

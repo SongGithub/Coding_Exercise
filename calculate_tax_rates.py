@@ -7,8 +7,11 @@ ATO individual tax rate table
 #Specialised knowledge: XPath
 """
 from lxml import html
-from pprint import pprint
 import requests,re,json,settings,datetime,os
+from requests.packages.urllib3.exceptions import InsecureRequestWarning
+
+requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
+# Suppress InsecureRequestWarning: Unverified HTTPS request is being made in Python2.6 (credit: StackOverflow)
 
 
 class TaxRate(object):
@@ -27,6 +30,7 @@ class TaxRate(object):
                 tax_table_title_temp = str(tree.xpath(
                     '//*[@id="main-content"]/section/div[2]/div/article/div[1]/div/h3['+str(table_num)+']/text()'))
                 tax_table_title = "".join(re.findall(r"[^[^'^\]^u]", tax_table_title_temp.replace('\u2013','-')))
+
                 tax_table_dics = []
                 for i in range(2, 7):
                     taxable_income_range = tree.xpath(
@@ -48,7 +52,7 @@ class TaxRate(object):
                         boarder_list = re.findall(r"(\d+)", transformed_webcontent_string_C)
                         lower_boundary_tax_bracket = [float(x) for x in boarder_list][0]
                         # grab only the lower boundary of taxable income bracket
-                        ##########################################
+
                         # extracting the TAX_RATE below:
                         tax_rate_description = tree.xpath(
                             '//*[@id="main-content"]/section/div[2]/div/article/div[1]/div/table['
@@ -61,9 +65,7 @@ class TaxRate(object):
                         dic_tax_bracket = {'low_end': lower_boundary_tax_bracket, 'rate': tax_rate}
                         tax_table_dics.append(dic_tax_bracket)
                     annual_tax_table = {tax_table_title: tax_table_dics}
-                # 'ANNUAL TAX TABLE', annual_tax_table
                 result.append(annual_tax_table)
-            print 'RESULT', result
             taxrate_filename = 'taxrate_' + str(datetime.datetime.now().strftime("%Y%m%d_%H%M%S")) + '.json'
             taxrate_path = os.path.join(settings.TAX_RATE_BACKUP_PATH,taxrate_filename)
             with open(taxrate_path, 'w') as outfile:         
@@ -93,34 +95,22 @@ class TaxRate(object):
             result = self.__get_taxrate_local_json__(tax_rate_file_path)
         else:
             result = get_online_taxrate
-
-        print('#' * 80)
-        print('tax rate extracted is as following list:')
-        print(result)
-        print('#' * 80)
         self._taxrate_list = result
 
     def calculate_tax(self, salary):
-        """calculate_tax according to input tax rate
+        """calculate_tax according to input tax rate table
         Args:
-
             salary: individual salary for calculation
         """
- 
         accumulated_base_tax_amt = 0
-        print "self._taxrate_list", self._taxrate_list
-        for key, value in self._taxrate_list[1].items():
+        for key, value in self._taxrate_list[settings.TAX_RATE_FINANCIAL_YEAR].items():
             for i in range(0,len(value)):
                 if i >=2:
                     accumulated_base_tax_amt += value[i-2][u'rate'] * (value[i-1][u'low_end'] - value[i-2][u'low_end'])
                 if salary < value[i][u'low_end']:
-                    # 'tax range located!'
+                    # 'tax range located by now!'
                     break
             tax = round(value[i-1][u'rate'] * (salary - value[i-1][u'low_end']) + accumulated_base_tax_amt)
-            return tax
+        return tax
         # loop above goes through lower-boundary of a tax bracket, trying to see which lower-boundary just exceed
         # the figure of the 'salary'. Then the index of match tax bracket can be calculated by (current index - 1)
-
-if __name__ == '__main__':
-    tax_rate_instance = TaxRate('https://www.ato.gov.au/rates/individual-income-tax-rates')
-    print(tax_rate_instance.calculate_tax(40000))
