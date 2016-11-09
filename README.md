@@ -6,7 +6,7 @@ Features in this exercise
 - More realistic! TaxRate module harvests targeted tax data from Australian Taxation Office website. 
 - Re-usable. TaxRate module provide JSON format outputs. Therefore it is more reusable
 - Easy to maintain and debug loose-coupled modules well orchestrated together
-- Well documented. Infrastructure has been setup on 'ReadTheDocs' site which is popular choice for open-source projects
+- Well documented. Beside inline comments and easy-to-understand names. Infrastructure has been setup on 'ReadTheDocs' site which is popular choice for open-source projects. http://coding-execrise-tax-calculator.readthedocs.io/en/latest/
 - Readability. Following best practices in Python. PEP-8 complied.
 
 Assumptions
@@ -36,4 +36,3 @@ Test
 TO-DO
 =====
 - Docker-Containerise so that configuration steps are reduced to only one: get Docker then just run!
-- 
