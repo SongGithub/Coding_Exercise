@@ -30,13 +30,7 @@ class TaxRate(object):
             RESIDENT_TABLE_AMT = 2
             for table_num in range(1, RESIDENT_TABLE_AMT+1):
                 tax_table_title_temp = str(
-                                            tree.xpath((
-                                                '//*[@id="main-conten'
-                                                't"]/section/div[2]/div/arti'
-                                                'cle/div[1]/div/h3['
-                                                ) +
-                                            str(table_num) +
-                                            ']/text()')
+                                            tree.xpath('//*[@id="main-content"]/section/div[2]/div/article/div[1]/div/h3[' + str(table_num) + ']/text()')
                                         )
                 tax_table_title = "".join(
                         re.findall(
@@ -56,6 +50,7 @@ class TaxRate(object):
                     # take info about low & high end boundary of
                     # the taxable income bracket
                     target_webcontent_string = str(taxable_income_range)
+
                     if len(taxable_income_range) == 0:
                         print 'breaking due to website out of order'
                         return -1
