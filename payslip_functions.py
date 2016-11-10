@@ -17,19 +17,18 @@ def parse_date(date_string):
 
 def RepresentsInt(str):
     """helper function telling if the str represents an integer"""
-    try: 
+    try:
         int(str)
         return True
     except ValueError:
         return False
 
 def number_cruncher(personal_info_set, calculated_tax=0):
-    try: 
+    try:
         f_name, l_name, annual_salary, super_rate, pay_start_date = personal_info_set
         name = f_name + ' ' + l_name
         pay_period = parse_date(pay_start_date)
-        if RepresentsInt(annual_salary) == False:
-            #annual_salary = 0
+        if RepresentsInt(annual_salary) is False:
             print 'salary must be integer! auto-rounding'
             annual_salary = int(round(float(annual_salary)))
         if float(annual_salary) < 0:
@@ -38,11 +37,12 @@ def number_cruncher(personal_info_set, calculated_tax=0):
         gross_income = int(round(float(annual_salary) / 12))
         income_tax = int(round(calculated_tax / 12))
         net_income = gross_income - income_tax
-        if float(super_rate) < 0 or float(super_rate) >50:
+        if float(super_rate) < 0 or float(super_rate) > 50:
             print 'super_rate out of range, auto-correcting'
             super_rate = 0
-        superannuation = int(round(float(gross_income) * float(super_rate) / 100))
-
+        superannuation = int(round(float(
+            gross_income) * float(super_rate) / 100)
+        )
         return name, pay_period, gross_income, income_tax, net_income, superannuation
     except ValueError:
         print 'information missing...'

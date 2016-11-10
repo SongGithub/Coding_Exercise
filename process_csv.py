@@ -13,13 +13,12 @@ class ProcessCsvFile(object):
         self._output_filename = output_filename
         self._input_object = None
 
-
     def read_csv(self):
         """read csv file content then output the 'reader object'"""
         try:
             f_obj = open(self._input_filename, 'rU')
             reader = csv.reader(f_obj)
-            #following section skips the header row
+            # following section skips the header row
             has_header = csv.Sniffer().has_header(f_obj.read(1024))
             f_obj.seek(0)  # rewind
             incsv = csv.reader(f_obj)
@@ -28,7 +27,9 @@ class ProcessCsvFile(object):
             self._input_object = f_obj
             return reader
         except IOError as e:
-            print "I/O error occured! (csv) ({0}): {1}".format(e.errno, e.strerror)
+            print "I/O error occured! (csv) ({0}): {1}".format(
+                e.errno, e.strerror
+                )
 
     def close_csv(self):
         self._input_object.close()
@@ -57,7 +58,7 @@ class ProcessCsvFile(object):
                                 'superannuation',
                             ]
                               )
-        
+
     def write_csv(self, content):
         """write a csv file with intended content"""
         with open(self._output_filename, 'a') as f_obj:
