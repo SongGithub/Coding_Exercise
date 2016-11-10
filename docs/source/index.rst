@@ -1,26 +1,12 @@
-.. tax_calculator documentation master file, created by
-   sphinx-quickstart on Tue Nov  8 22:38:44 2016.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Welcome to tax_calculator's documentation!
-==========================================
-
-Contents:
-
-.. toctree::
-   :maxdepth: 2
-
-   
 # Coding_Exercise
-coding for fun! it uses Python, data-harvesting against HTML, and more 
+coding for fun! it uses Python, data-harvesting against HTML, and more
 
 Features in this exercise
 =======================
-- More realistic! TaxRate module harvests targeted tax data from Australian Taxation Office website. 
+- More realistic! TaxRate module harvests targeted tax data from Australian Taxation Office website.
 - Re-usable. TaxRate module provide JSON format outputs. Therefore it is more reusable
 - Easy to maintain and debug loose-coupled modules well orchestrated together
-- Well documented. Infrastructure has been setup on 'ReadTheDocs' site which is popular choice for open-source projects
+- Well documented. Beside inline comments and easy-to-understand names. Infrastructure has been setup on 'ReadTheDocs' site which is popular choice for open-source projects. http://coding-execrise-tax-calculator.readthedocs.io/en/latest/
 - Readability. Following best practices in Python. PEP-8 complied.
 
 Assumptions
@@ -32,10 +18,11 @@ Assumptions
 
 How To Run?
 ======
-- For Mac users `sudo easy_install pip`. And for Windows users, please go here https://pypi.python.org/pypi/pip#downloads to get pip installation packages.
+
+- For Mac users `sudo easy_install pip`.
 - `pip install virtualenv`
-- start your virtualenv by running `New-VirtualEnvironment xyz` (virtualenv protects your environment from being polluted by this project's required software packages)
-- `pip install -r requirement`
+- start your virtualenv by following tutorial http://sourabhbajaj.com/mac-setup/Python/virtualenv.html
+- Once your virtualenv is up and running. run: `pip install -r requirements.txt`
 - `python main.py`
 
 Expected Results
@@ -43,8 +30,11 @@ Expected Results
 - Output csv file with time stamp can be found in programs 'result' folder.
 - Recently generated tax rate JSON file can be found in Config/tax_rate_backup folder.
 
+Test
+=====
+- Simply run `nosetests`
+
 TO-DO
 =====
-- Docker-Containerise so that configuration steps are reduced to only one: get Docker then just run!
-- 
-
+- Convert the project to a web application using Flask (Micro web framework in Python) and Docker-Containers hosting at Heroku
+- Event logging module that takes note of unexpected events.
