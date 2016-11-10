@@ -1,6 +1,5 @@
 from ..calculate_tax_rates import *
 import unittest
-from nose.tools import *
 
 
 class TestTaxRate(unittest.TestCase):
