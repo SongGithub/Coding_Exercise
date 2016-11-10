@@ -18,7 +18,7 @@ Assumptions
 
 How To Run?
 ======
-
+Tutorial for setup environment can be found here: https://hackercodex.com/guide/python-development-environment-on-mac-osx/
 - For Mac users `sudo easy_install pip`.
 - `pip install virtualenv`
 - start your virtualenv by following tutorial http://sourabhbajaj.com/mac-setup/Python/virtualenv.html
