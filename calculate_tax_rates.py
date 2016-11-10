@@ -44,7 +44,6 @@ class TaxRate(object):
                             tax_table_title_temp.replace('\u2013', '-')
                             )
                     )
-
                 tax_table_dics = []
                 for i in range(2, 7):
                     taxable_income_range = tree.xpath(
