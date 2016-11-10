@@ -21,8 +21,8 @@ How To Run?
 
 - For Mac users `sudo easy_install pip`.
 - `pip install virtualenv`
-- start your virtualenv by running `New-VirtualEnvironment xyz` (virtualenv protects your environment from being polluted by this project's required software packages)
-- `pip install -r requirements.txt`
+- start your virtualenv by following tutorial http://sourabhbajaj.com/mac-setup/Python/virtualenv.html
+- Once your virtualenv is up and running. run: `pip install -r requirements.txt`
 - `python main.py`
 
 Expected Results
