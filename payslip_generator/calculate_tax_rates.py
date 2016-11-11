@@ -7,8 +7,10 @@ ATO individual tax rate table
 #Specialised knowledge: XPath
 """
 from lxml import html
-import requests, re, json, settings, datetime, os
+import requests, re, json, datetime, os, settings
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
+
+
 
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 # Suppress InsecureRequestWarning: Unverified HTTPS request is being made
@@ -29,9 +31,7 @@ class TaxRate(object):
             result = []
             RESIDENT_TABLE_AMT = 2
             for table_num in range(1, RESIDENT_TABLE_AMT+1):
-                tax_table_title_temp = str(
-                                            tree.xpath('//*[@id="main-content"]/section/div[2]/div/article/div[1]/div/h3[' + str(table_num) + ']/text()')
-                                        )
+                tax_table_title_temp = str(tree.xpath('//*[@id="main-content"]/section/div[2]/div/article/div[1]/ul/li/div/h3[' + str(table_num) + ']/text()'))
                 tax_table_title = "".join(
                         re.findall(
                             r"[^[^'^\]^u]",
@@ -40,17 +40,11 @@ class TaxRate(object):
                     )
                 tax_table_dics = []
                 for i in range(2, 7):
-                    taxable_income_range = tree.xpath(
-                            (
-                                '//*[@id="main-content"]/section/div[2]/div/'
-                                'article/div[1]/div/table['
-                            ) +
-                            str(table_num)+']/tbody/tr[' +
-                            str(i)+']/td[1]/p/text()')
+                    taxable_income_range = tree.xpath('//*[@id="main-content"]/section/div[2]/div/article/div[1]/ul/li/div/table[' + str(table_num)+']/tbody/tr[' +str(i)+']/td[1]/p/text()')
+
                     # take info about low & high end boundary of
                     # the taxable income bracket
                     target_webcontent_string = str(taxable_income_range)
-
                     if len(taxable_income_range) == 0:
                         print 'breaking due to website out of order'
                         return -1
@@ -68,22 +62,11 @@ class TaxRate(object):
                         # grab only the lower boundary of taxable income bracket
 
                         # extracting the TAX_RATE below:
-                        tax_rate_description = tree.xpath(
-                                        (
-                                        '//*[@id="main-content"]/section/'
-                                        'div[2]/div/article/div[1]/div/'
-                                        'table['
-                                        ) +
-                                    str(table_num)+']/tbody/tr[' +
-                                    str(i)+']/td[2]/p/text()')
+                        tax_rate_description = tree.xpath('//*[@id="main-content"]/section/div[2]/div/article/div[1]/ul/li/div/table['+ str(table_num)+']/tbody/tr[' + str(i)+']/td[2]/p/text()')
                         # grab tax rate info for Xcent for each $1 taxable income over the low boundary.
                         target_webcontent_string = str(tax_rate_description)
                         transformed_webcontent_string_digitized = target_webcontent_string.replace('Nil', '0c')
-                        tax_rate = float(re.findall
-                                        (
-                                            r"(\d+.?\d*){1}c",
-                                            transformed_webcontent_string_digitized
-                                        )[0]) / 100
+                        tax_rate = float(re.findall(r"(\d+.?\d*){1}c",transformed_webcontent_string_digitized)[0])/100
                         dic_tax_bracket = {
                             'low_end': lower_boundary_tax_bracket,
                             'rate': tax_rate

@@ -1,4 +1,4 @@
-from ..payslip_functions import *
+from payslip_generator.payslip_functions import *
 import unittest
 
 
