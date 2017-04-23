@@ -37,7 +37,6 @@ class ProcessCsvFile(object):
     def write_csv_header(self):
         """write csv header with pre-defined content
         Args:
-
             filename as input
         """
 

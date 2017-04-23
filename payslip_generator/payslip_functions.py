@@ -1,10 +1,14 @@
-"""this module calculate varies of payslip numbers according to input"""
+"""this module calculates varies of payslip numbers according to input"""
 
 import calendar
 import re
 
 from calculate_tax_rates import TaxRate
 
+# TODO: separate error and warning messages, and use proper logging,
+# instead of using 'Print' for all
+
+# TODO: encapsulate the process into a class.
 
 def parse_date(date_string):
     try:
@@ -15,7 +19,7 @@ def parse_date(date_string):
     except IndexError:
         print 'month number out of range!'
 
-def RepresentsInt(str):
+def represent_int(str):
     """helper function telling if the str represents an integer"""
     try:
         int(str)
@@ -23,12 +27,12 @@ def RepresentsInt(str):
     except ValueError:
         return False
 
-def number_cruncher(personal_info_set, calculated_tax=0):
+def calculate_payslip(personal_info_set, calculated_tax=0):
     try:
         f_name, l_name, annual_salary, super_rate, pay_start_date = personal_info_set
         name = f_name + ' ' + l_name
         pay_period = parse_date(pay_start_date)
-        if RepresentsInt(annual_salary) is False:
+        if represent_int(annual_salary) is False:
             print 'salary must be integer! auto-rounding'
             annual_salary = int(round(float(annual_salary)))
         if float(annual_salary) < 0:
