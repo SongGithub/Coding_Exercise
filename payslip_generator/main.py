@@ -1,6 +1,6 @@
 """this module orchestrates the sub modules to perform the task"""
 
-import payslip_functions, calculate_tax_rates, settings
+import employee, calculate_payslips, tax_rate, settings
 import sys, os
 import datetime
 from process_csv import ProcessCsvFile

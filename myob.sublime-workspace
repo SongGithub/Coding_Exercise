@@ -1,0 +1,341 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"table",
+				"table_num"
+			],
+			[
+				"tax",
+				"tax_table_title"
+			],
+			[
+				"_t",
+				"_tax_rate_file_path"
+			],
+			[
+				"Tax",
+				"TaxRate"
+			],
+			[
+				"super",
+				"super_rate"
+			],
+			[
+				"su",
+				"super_rate"
+			],
+			[
+				"csv",
+				"csv_obj"
+			],
+			[
+				"inpu",
+				"input_filename"
+			],
+			[
+				"se",
+				"settings"
+			],
+			[
+				"_",
+				"_taxrate_list"
+			],
+			[
+				"base",
+				"base_tax_amt"
+			],
+			[
+				"dic",
+				"dic_lower_boundary_tax_bracket"
+			],
+			[
+				"taxrate",
+				"taxrate_filename"
+			],
+			[
+				"tab_",
+				"tax_table_title"
+			],
+			[
+				"tax_tab",
+				"tax_table_info"
+			],
+			[
+				"low",
+				"lower_boundary_tax_bracket"
+			],
+			[
+				"tab",
+				"table_num"
+			],
+			[
+				"RE",
+				"RESIDENT_TABLE_AMT"
+			],
+			[
+				"tax_ta",
+				"tax_table_title_temp"
+			],
+			[
+				"at",
+				"ato_url"
+			],
+			[
+				"resul",
+				"result_filepath"
+			],
+			[
+				"tran",
+				"transformed_webcontent_string_no_comma"
+			],
+			[
+				"buz",
+				"BUZZ_NUM"
+			],
+			[
+				"fi",
+				"FIZZ_NUM"
+			],
+			[
+				"fiz",
+				"Fizz_pt"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/song/workspaces/MYOB_code_exercise_Payslip",
+		"/Users/song/workspaces/MYOB_code_exercise_Payslip/payslip_generator",
+		"/Users/song/workspaces/MYOB_code_exercise_Payslip/tests"
+	],
+	"file_history":
+	[
+		"/Users/song/workspaces/MYOB_code_exercise_Payslip/payslip_generator/settings.py",
+		"/Users/song/workspaces/MYOB_code_exercise_Payslip/.gitignore",
+		"/Users/song/workspaces/MYOB_code_exercise_Payslip/payslip_generator/calculate_tax_rates.py",
+		"/Users/song/workspaces/MYOB_code_exercise_Payslip/tests/test_calculate_tax_rates.py",
+		"/Users/song/workspaces/MYOB_code_exercise_Payslip/tests/test_payslip_functions.py",
+		"/Users/song/workspaces/MYOB_code_exercise_Payslip/payslip_generator/main.py",
+		"/Users/song/workspaces/MYOB_code_exercise_Payslip/payslip_generator/payslip_functions.py",
+		"/Users/song/workspaces/MYOB_code_exercise_Payslip/settings.py",
+		"/Users/song/workspaces/MYOB_code_exercise_Payslip/calculate_tax_rates.py",
+		"/Users/song/workspaces/MYOB_code_exercise_Payslip/README.md",
+		"/Users/song/workspaces/MYOB_code_exercise_Payslip/setup.py",
+		"/Users/song/workspaces/MYOB_code_exercise_Payslip/docs/source/index.rst",
+		"/Users/song/workspaces/MYOB_code_exercise_Payslip/payslip_functions.py",
+		"/Users/song/workspaces/MYOB_code_exercise_Payslip/process_csv.py",
+		"/Users/song/workspaces/MYOB_code_exercise_Payslip/Dockerfile",
+		"/Users/song/workspaces/MYOB_code_exercise_Payslip/docker-compose.yml",
+		"/Users/song/workspaces/MYOB_code_exercise_Payslip/main.py",
+		"/Users/song/workspaces/MYOB_code_exercise_Payslip/docs/build/index.html",
+		"/Users/song/workspaces/MYOB_code_exercise_Payslip/docs/build/_sources/index.txt",
+		"/Users/song/workspaces/MYOB_code_exercise_Payslip/__init__.py",
+		"/Users/song/workspaces/MYOB_code_exercise_Payslip/tests/__init__.py",
+		"/Users/song/workspaces/MYOB_code_exercise_Payslip/tests/test_main.py",
+		"/Users/song/workspaces/MYOB_code_exercise_Payslip/tests/test.py",
+		"/Users/song/workspaces/MYOB_code_exercise_Payslip/docs/source/conf.py",
+		"/Users/song/workspaces/MYOB_code_exercise_Payslip/config/tax_rate_backup/tax_rate_default.json",
+		"/Users/song/workspaces/MYOB_code_exercise_Payslip/config/tax_rate_backup/taxrate_20161107_161129.json",
+		"/Users/song/workspaces/MYOB_code_exercise_Payslip/config/tax_rate_backup/taxrate_20161107_160743.json",
+		"/Users/song/workspaces/MYOB_code_exercise_Payslip/config/tax_rate_default.json",
+		"/Users/song/workspaces/MYOB_code_exercise_Payslip/LICENSE",
+		"/Users/song/workspaces/MYOB_code_exercise_Payslip/requirement.txt",
+		"/Users/song/workspaces/monthly_payslip_generator/main.py",
+		"/Users/song/Downloads/myob/payroll_test.py",
+		"/Users/song/workspaces/blindcity/shield/blindscity/static/less/styles.less",
+		"/Users/song/workspaces/blindcity/shield/blindscity/static/less/styles.css",
+		"/Users/song/workspaces/blindcity/shield/blindscity/templates/pages/about.html",
+		"/Users/song/workspaces/code_test_prepare/fizz-buzz.py",
+		"/Users/song/workspaces/blindcity/price-app/config.py",
+		"/Users/song/workspaces/blindcity/price-app/app.py",
+		"/Users/song/workspaces/blindcity/price-app/requirements.txt",
+		"/Users/song/workspaces/blindcity/price-app/views.py",
+		"/Users/song/workspaces/blindcity/price-app/docker-compose.yml",
+		"/Users/song/workspaces/blindcity/price-app/templates/index.html",
+		"/Users/song/workspaces/blindcity/price-app/Dockerfile",
+		"/Users/song/workspaces/blindcity/price-app/migrations/README",
+		"/Users/song/workspaces/blindcity/shield/blindscity/static/css/blindscity.css",
+		"/Users/song/workspaces/blindcity/shield/blindscity/templates/pages/home.html",
+		"/Users/song/workspaces/blindcity/shield/blindscity/static/css/project.css",
+		"/Users/song/workspaces/blindcity/shield/config/settings/production.py",
+		"/Users/song/workspaces/blindcity/shield/config/settings/local.py",
+		"/Users/song/workspaces/blindcity/shield/config/settings/common.py",
+		"/Users/song/workspaces/blindcity/shield/blindscity/pages/views.py",
+		"/Users/song/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/song/workspaces/case-study-magrudys-matjaro/docs/manual/source/images/stage-architecture.svg",
+		"/Users/song/workspaces/case-study-django-oscar/runtests.py",
+		"/Users/song/workspaces/case-study-django-oscar/setup.py",
+		"/Users/song/workspaces/case-study-django-oscar/oscarsong/manage.py",
+		"/Users/song/workspaces/2DoList/templates/to_do_list_app/ManageCategory.html",
+		"/Users/song/workspaces/2DoList/templates/to_do_list_app/AddItem.html",
+		"/Users/song/workspaces/2DoList/templates/to_do_list_app/base.html",
+		"/Users/song/workspaces/ShellScripting/rr.sh",
+		"/Users/song/workspaces/ShellScripting/file.txt"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/song/workspaces/MYOB_code_exercise_Payslip",
+			"/Users/song/workspaces/blindcity/price-app"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"sublime",
+			"input file read",
+			" ",
+			"end",
+			"start",
+			"/Users/namngo"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"END",
+			"START"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "myob.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 214.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

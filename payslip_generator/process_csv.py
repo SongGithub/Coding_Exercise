@@ -1,5 +1,6 @@
-#!/usr/bin/python
-"""this module handles all file operations"""
+"""
+    this module handles all file operations
+"""
 import csv
 import settings
 
@@ -45,18 +46,18 @@ class ProcessCsvFile(object):
                 f_obj, delimiter=',',
                 quotechar='|',
                 quoting=csv.QUOTE_MINIMAL
-                )
+            )
 
             writer.writerow(
-                            [
-                                'full name',
-                                'pay period',
-                                'gross income',
-                                'income tax',
-                                'net income',
-                                'superannuation',
-                            ]
-                              )
+                [
+                    'full name',
+                    'pay period',
+                    'gross income',
+                    'income tax',
+                    'net income',
+                    'superannuation',
+                ]
+            )
 
     def write_csv(self, content):
         """write a csv file with intended content"""

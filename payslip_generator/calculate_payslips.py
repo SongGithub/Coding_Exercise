@@ -1,8 +1,9 @@
-"""this module calculates varies of payslip numbers according to input"""
+"""
+    this module calculates varies of payslip numbers according to input
+"""
 
 import calendar
 import re
-
 from calculate_tax_rates import TaxRate
 
 # TODO: separate error and warning messages, and use proper logging,

@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-	name = 'MYOB_code exercise_payslip generator',
+	name = 'Monthly Payslip Calculator',
 	version = '0.0.1',
 	description = 'calculate pay details',
 	author = 'Song Jin',
