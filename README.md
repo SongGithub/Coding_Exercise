@@ -2,7 +2,7 @@
 [![Build Status](https://travis-ci.org/SongGithub/Monthly-Pay-Calculator.svg?branch=master)](https://travis-ci.org/SongGithub/Monthly-Pay-Calculator)
 
 Running the calculator without Docker
-======
+------------
 
 Requirements
 ------------
@@ -21,14 +21,14 @@ Requirements
 - `python main.py`
 
 Features in this exercise
-=======================
+------------
 - Re-usable & Extendable. TaxRate module provides JSON format outputs. Therefore it is more reusable
 - Easy to maintain and debug: loose-coupled modules well orchestrated together
 - Well documented. Beside inline comments and easy-to-understand names. Infrastructure has been setup on 'ReadTheDocs' site which is popular choice for open-source projects. http://coding-execrise-tax-calculator.readthedocs.io/en/latest/
 - Readability. Following best practices in Python: PEP-8 complied.
 
 Assumptions
-===========
+------------
 - Input csv file has correct formatted content. Format: it should contain first name, last name, salary, super rate% (0 - 50) and payment start date (for instance: 31/12/16)
 - Input csv file path should be correctly listed in `settings.py`
 - Either ATO website service or the Default tax rate table file is available
@@ -36,7 +36,7 @@ Assumptions
 
 
 Expected Results
-==============
+------------
 - Output csv file with time stamp can be found in programs 'result' folder.
 - Recently generated tax rate JSON file can be found in Config/tax_rate_backup folder.
 
@@ -45,13 +45,13 @@ Test Mannually
 - Simply run `nosetests` while in the root folder
 
 TO-DO
-=====
+------------
 - Event logging module that takes note of unexpected events.
 - Wrap the project in Docker Container. The Docker-Container can make others get this project up and running painlessly, much easier than ask people who are not from Python world to setup Python specific environment, such as Pip, and installing dependencies for the project. Also, it reflects current trend of 'Containerization' & Devops.
 - Include Travis-CI for auto-testing purpose. Travis-CI is excellent choice as it is free for open-source projects and work seamlessly with Github where this project is hosted on.
 
 Problem Description
-===================
+------------
 
 The Problem: Employee Monthly Payslip Generation
 ----------------------------------------------------------------------------------

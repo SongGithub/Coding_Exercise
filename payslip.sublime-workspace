@@ -1,0 +1,1501 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"person",
+				"personal_info_dic"
+			],
+			[
+				"get",
+				"get_personal_info"
+			],
+			[
+				"in",
+				"individual_payslip"
+			],
+			[
+				"an",
+				"annual_salary"
+			],
+			[
+				"calcu",
+				"calculate_payslips"
+			],
+			[
+				"round",
+				"rounding_mode"
+			],
+			[
+				"R",
+				"ROUND_HALF_UP"
+			],
+			[
+				"tax",
+				"tax_rate"
+			],
+			[
+				"em",
+				"employee"
+			],
+			[
+				"cur",
+				"current_tax_rate"
+			],
+			[
+				"tax_rate",
+				"tax_rate_file_path"
+			],
+			[
+				"Tax",
+				"TaxRate"
+			],
+			[
+				"super",
+				"super_rate"
+			],
+			[
+				"p",
+				"person"
+			],
+			[
+				"per",
+				"personal_info_dic"
+			],
+			[
+				"csv",
+				"csv_read_results"
+			],
+			[
+				"emp",
+				"employees"
+			],
+			[
+				"pro",
+				"ProcessCsvFile"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"data",
+				"dataObj"
+			],
+			[
+				"load",
+				"loadDataService"
+			],
+			[
+				"correc",
+				"correctly"
+			],
+			[
+				"LOAD",
+				"loaddata"
+			],
+			[
+				"test",
+				"testDate1"
+			],
+			[
+				"calc",
+				"calculateDateDiffInst"
+			],
+			[
+				"diff",
+				"difference"
+			],
+			[
+				"cal",
+				"calculateDateDiffInst"
+			],
+			[
+				"testD",
+				"testDate"
+			],
+			[
+				"date",
+				"date1"
+			],
+			[
+				"Dat",
+				"dateObject"
+			],
+			[
+				"bable",
+				"babel-core"
+			],
+			[
+				"s",
+				"singleToDoubleDigits"
+			],
+			[
+				"sys",
+				"System"
+			],
+			[
+				"Nod",
+				"NOD2"
+			],
+			[
+				"input",
+				"inputDataObjects"
+			],
+			[
+				"valida",
+				"validateData"
+			],
+			[
+				"erro",
+				"errors"
+			],
+			[
+				"inputDate",
+				"inputDataObjects"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"da",
+				"dateStringSplit"
+			],
+			[
+				"target",
+				"targetContainer"
+			],
+			[
+				"dif",
+				"diff"
+			],
+			[
+				"tile",
+				"tiles"
+			],
+			[
+				"host",
+				"hostName"
+			],
+			[
+				"detach_",
+				"detach_dev_name"
+			],
+			[
+				"detac",
+				"detachDev"
+			],
+			[
+				"device",
+				"deviceHostName"
+			],
+			[
+				"serverDisp",
+				"serverDisplayManagerClass"
+			],
+			[
+				"taskrun",
+				"TASKRUNNER"
+			],
+			[
+				"rend",
+				"renderedHTML"
+			],
+			[
+				"ti",
+				"tiles"
+			],
+			[
+				"labServer",
+				"labServerObjects"
+			],
+			[
+				"new",
+				"new"
+			],
+			[
+				"server",
+				"serverObjects"
+			],
+			[
+				"APP",
+				"APPS_DIR"
+			],
+			[
+				"set",
+				"set_cookie"
+			],
+			[
+				"fiel",
+				"fileSize"
+			],
+			[
+				"file",
+				"fileSize"
+			],
+			[
+				"resour",
+				"resourceFile"
+			],
+			[
+				"resource",
+				"resourceName"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"conet",
+				"content_type"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"lab",
+				"labServer"
+			],
+			[
+				"err",
+				"errorCode"
+			],
+			[
+				"proce",
+				"processSensoryDevices"
+			],
+			[
+				"process",
+				"processFileSyncServer"
+			],
+			[
+				"the",
+				"the_bucket"
+			],
+			[
+				"bucket",
+				"bucket_name"
+			],
+			[
+				"delete",
+				"deleted_obj"
+			],
+			[
+				"User",
+				"UserAdmin"
+			],
+			[
+				"Api",
+				"ApiKeyInline"
+			],
+			[
+				"user",
+				"UserAdmin"
+			],
+			[
+				"cust",
+				"customLabServerErrMsg"
+			],
+			[
+				"td",
+				"td-content"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"cha",
+				"CharField"
+			],
+			[
+				"res",
+				"resourceKeyURI"
+			],
+			[
+				"checked",
+				"checkedHosts"
+			],
+			[
+				"obj",
+				"objects"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"icon",
+				"iconStr"
+			],
+			[
+				"old",
+				"oldStr"
+			],
+			[
+				"re",
+				"resourceType"
+			],
+			[
+				"Resour",
+				"ResourceType"
+			],
+			[
+				"For",
+				"ForeignKey"
+			],
+			[
+				"select",
+				"selectionID"
+			],
+			[
+				"selected",
+				"selectedIndex"
+			],
+			[
+				"clic",
+				"click"
+			],
+			[
+				"reset",
+				"resetBtnName"
+			],
+			[
+				"fail",
+				"failMsg"
+			],
+			[
+				"exist",
+				"existingMsg"
+			],
+			[
+				"succ",
+				"successMsg"
+			],
+			[
+				"ex",
+				"existingMsg"
+			],
+			[
+				"modal",
+				"modalBody"
+			],
+			[
+				"mod",
+				"modalID"
+			],
+			[
+				"fot",
+				"footerPadding"
+			],
+			[
+				"foo",
+				"footerPadding"
+			],
+			[
+				"foot",
+				"footerHeight"
+			],
+			[
+				"fide",
+				"field_name"
+			],
+			[
+				"fie",
+				"field_name"
+			],
+			[
+				"F",
+				"FIELD_NAME_MAPPING"
+			],
+			[
+				"fid",
+				"field_name"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"hsot",
+				"hostName"
+			],
+			[
+				"pay",
+				"payload"
+			],
+			[
+				"hostNam",
+				"hostNameURI"
+			],
+			[
+				"chec",
+				"checkedHost"
+			],
+			[
+				"dta",
+				"data_msg"
+			],
+			[
+				"text",
+				"textStatus"
+			],
+			[
+				"export",
+				"exportViewState"
+			],
+			[
+				"che",
+				"checkedHosts"
+			],
+			[
+				"check",
+				"checkedHosts"
+			],
+			[
+				"updateBt",
+				"updateBtnAppearanceII"
+			],
+			[
+				"sec",
+				"selectAll"
+			],
+			[
+				"se",
+				"selectBtnName"
+			],
+			[
+				"update",
+				"updateDisplay"
+			],
+			[
+				"selec",
+				"selectBtnName"
+			],
+			[
+				"btn",
+				"btninst"
+			],
+			[
+				"selectBt",
+				"selectBtnClass"
+			],
+			[
+				"ch",
+				"checkbox"
+			],
+			[
+				"selct",
+				"selectAll"
+			],
+			[
+				"selc",
+				"selectionName"
+			],
+			[
+				"read",
+				"readValue"
+			],
+			[
+				"click",
+				"clicked"
+			],
+			[
+				"updateBtn",
+				"updateBtnAppearanceRunner"
+			],
+			[
+				"De",
+				"DeviceStatus"
+			],
+			[
+				"Die",
+				"DeviceResource"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "tests/test_rounding.py",
+			"settings":
+			{
+				"buffer_size": 615,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tests/test_employee.py",
+			"settings":
+			{
+				"buffer_size": 422,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/payslip.py",
+			"settings":
+			{
+				"buffer_size": 1868,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/config/tax_rate_backup/tax_rate_default.json",
+			"settings":
+			{
+				"buffer_size": 444,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/employee.py",
+			"settings":
+			{
+				"buffer_size": 1250,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/tax_rate.py",
+			"settings":
+			{
+				"buffer_size": 3024,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/rounding.py",
+			"settings":
+			{
+				"buffer_size": 268,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/settings.py",
+			"settings":
+			{
+				"buffer_size": 417,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\"\"\"\n    this module handles all file operations\n\"\"\"\nimport csv\nimport settings\n\n\nclass ProcessCsvFile(object):\n    \"\"\"\n    The Class is designed to close read file thread gracefully\n    \"\"\"\n    def __init__(self, input_filename, output_filename=\"\"):\n        self._input_filename = input_filename\n        self._output_filename = output_filename\n        self._input_object = None\n        self._headers = []\n\n    def read_csv(self):\n        \"\"\"read csv file content then return a list of dictionaries'\"\"\"\n        try:\n            f_obj = open(self._input_filename, 'rU')\n            reader = csv.reader(f_obj)\n            # following section skips the header row\n            has_header = csv.Sniffer().has_header(f_obj.read(1024))\n            f_obj.seek(0)  # rewind\n            incsv = csv.reader(f_obj)\n            if has_header:\n                self._headers = keys = reader.next()\n            self._input_object = f_obj\n\n            rows = []\n            for row in reader:\n                dic = {}\n                for i in range(len(keys)):\n                    dic[keys[i]] = row[i]\n                rows.append(dic)\n\n            return rows\n        except IOError as e:\n            print \"I/O error occured! (csv) ({0}): {1}\".format(\n                e.errno, e.strerror\n                )\n\n    def close_csv(self):\n        self._input_object.close()\n\n    def write_csv_header(self):\n        \"\"\"write csv header with pre-defined content\n        Args:\n            filename as input\n        \"\"\"\n\n        with open(self._output_filename, 'w') as f_obj:\n            writer = csv.writer(\n                f_obj, delimiter=',',\n                quotechar='|',\n                quoting=csv.QUOTE_MINIMAL\n            )\n\n            writer.writerow(\n                [\n                    'full name',\n                    'pay period',\n                    'gross income',\n                    'income tax',\n                    'net income',\n                    'superannuation',\n                ]\n            )\n\n    def write_csv(self, content):\n        \"\"\"write a csv file with intended content\"\"\"\n        with open(self._output_filename, 'a') as f_obj:\n\n            writer = csv.writer(\n                f_obj, delimiter=',',\n                quotechar='|',\n                quoting=csv.QUOTE_MINIMAL\n                )\n            writer.writerow(content)\n        f_obj.close()\n",
+			"file": "src/process_csv.py",
+			"file_size": 2442,
+			"file_write_time": 131375901130000000,
+			"settings":
+			{
+				"buffer_size": 2363,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/main.py",
+			"settings":
+			{
+				"buffer_size": 1355,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/result/result_20170426_120111.csv",
+			"settings":
+			{
+				"buffer_size": 143,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/result/result_20170426_005548.csv",
+			"settings":
+			{
+				"buffer_size": 139,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 147.0,
+		"last_filter": "package inst",
+		"selected_items":
+		[
+			[
+				"package inst",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packet",
+				"Package Control: List Packages"
+			],
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"INSTAL",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/config",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/config/tax_rate_backup",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/result",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/tests"
+	],
+	"file_history":
+	[
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/config/input.csv",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/result/result_20170427_001637.csv",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/result/result_20170426_141524.csv",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/.gitignore",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/process_csv.py",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/payslip.py",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/tests/test_process_csv.py",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/tests/test_rounding.py",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/result/result_20170426_115005.csv",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/tax_rate.py",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/tests/test_calculate_tax_rates.py",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/result/result_20170426_114554.csv",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/tests/test_payslip.py",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/rounding.py",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/tests/test_employee.py",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/result/result_20170425_230125.csv",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/result/result_20170425_104513.csv",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/payslip_generator/settings.py",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/payslip_generator/process_csv.py",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/payslip_generator/main.py",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/setup.py",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/payslip_generator/config/input.csv",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/README.md",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/employee.py",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/payslip_generator/employee.py",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/payslip_generator/tax_rate.py",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/payslip_generator/calculate_payslips.py",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/tests/test_payslip_functions.py",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/Dockerfile",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/.travis.yml",
+		"/Users/song/Downloads/emotionConfig (1).json",
+		"/Volumes/LUKAS/log.bin",
+		"/Volumes/LUKAS/DrvInfo/lukas_000.drv",
+		"/Volumes/LUKAS/config.bin",
+		"/Users/song/studyspaces/ES6/src/services/date-diff.js",
+		"/Users/song/studyspaces/ES6/src/services/load-data.js",
+		"/Users/song/studyspaces/ES6/src/app.js",
+		"/Users/song/studyspaces/ES6/src/ui/data-table.js",
+		"/Users/song/studyspaces/ES6/src/input-data.js",
+		"/Users/song/studyspaces/ES6/package.json",
+		"/Users/song/studyspaces/ES6/index.html",
+		"/Users/song/studyspaces/ES6/src/test/test.js",
+		"/Users/song/studyspaces/ES6/README.md",
+		"/Users/song/studyspaces/ES6/.gitignore",
+		"/Users/song/studyspaces/ES6/.babelrc",
+		"/Users/song/studyspaces/ES6/src/classes/date-objects.js",
+		"/Users/song/studyspaces/ES6/src/ui/base-element.js",
+		"/Users/song/studyspaces/ES6/src/classes/date.js",
+		"/Users/song/studyspaces/ES6/src/test/testHelper.js",
+		"/Users/song/studyspaces/ES6/src/services/handle-data-error.js",
+		"/Users/song/studyspaces/ES6/src/services/output-result.js",
+		"/Users/song/studyspaces/ES6/src/inputData.js",
+		"/Users/song/studyspaces/ES6/npm-debug.log",
+		"/Users/song/studyspaces/ES6/src/classes/dateObjects.js",
+		"/Users/song/Library/Application Support/Sublime Text 3/Packages/User/JsFormat.sublime-settings",
+		"/Users/song/studyspaces/ES6/app.js",
+		"/Users/song/nvm/helloworld.js",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/docker-compose.yml",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/compose/django/Dockerfile-dev",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/compose/django/gunicorn.sh",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/compose/postgres/Dockerfile",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/compose/django/entrypoint.sh",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/static/js/device_status.js",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/config/settings/common.py",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/compose/postgres/init.sql",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/templates/registration/login.html",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/config/urls.py",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/templates/resource_list.html",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/static/js/resource_list.js",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/data_server/models.py",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/templates/registration/logged_out.html",
+		"/Users/song/workspaces/blindcity/shield/config/settings/common.py",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/Dockerfile",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/config/settings/local.py",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/templates/resource_create.html",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/templates/device_resource_base.html",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/templates/device_resource_create.html",
+		"/Users/song/workspaces/blindcity/shield/config/settings/common.pyc",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/compose/django/Dockerfile",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/compose/nginx/Dockerfile",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/compose/nginx/nginx.conf",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/requirements/local.txt",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/requirements/production.txt",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/config/settings/production.py",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/requirements/base.txt",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/templates/base.html",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/templates/device_status.html",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/templates/device_resource_list_per_device.html",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/static/js/device_resource_list.js",
+		"/Users/song/workspaces/blindcity/shield/production.yml",
+		"/Users/song/workspaces/blindcity/shield/docker-compose.yml",
+		"/Users/song/workspaces/blindcity/shield/Dockerfile",
+		"/Users/song/workspaces/blindcity/shield/bitbucket-pipelines.yml",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/manage.py",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/config/wsgi.py",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/config/settings/.env",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/.gitignore",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/static/css/project.css",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/templates/device_resource_create_multiple.html",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/static/css/fonts.css",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/static/js/resource_create.js",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/forms.py",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/urls.py",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/views.py",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/templates/device_resource_create_per_device.html",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/static/js/updateStatusII.js",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/data_server/migrations/0008_auto_20161208_1031.py",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/data_server/migrations/0001_initial.py",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/static/js/device_resource_create_multiple.js",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/curl.script",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/tastyapi/api.py",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/Procfile",
+		"/Users/song/workspaces/digital_falcon/log_test.py",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/s3utils.py",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/tastyapi/admin.py",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/templates/device_resource_list.html",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/admin.py",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/data_server/admin.py",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/tastyapi/apps.py",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/templates/device_resource_update.html",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/templates/home.html",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/static/js/base.js",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/static/js/js_cookie.js",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/static/js/template.html",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/static/js/device_status_new.js",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/static/css/toggle-switch.css",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/static/js/template.js",
+		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/static/js/sensoryCardTemplate.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/song/studyspaces/ES6/node_modules/material-design-lite/dist",
+			"<current file>",
+			"/Users/song/workspaces/digital_falcon/sensoryweb",
+			"/Users/song/workspaces/blindcity/shield",
+			"/Users/song/workspaces/blindcity/price-app"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"json",
+			"print",
+			".{\\r}",
+			"\\r",
+			"*.js",
+			"resource",
+			"updatestatus",
+			"#fileSyncServer",
+			"devicetype']==2",
+			"removeDevices",
+			"renderHTML",
+			"updateDetachedHTML",
+			"rendered html for",
+			"addToTiles",
+			"-1",
+			"detachedhtml",
+			"appstatus",
+			"sensoryCardsContainer",
+			"serverDisplayManagerClass",
+			"changedetect",
+			"new ",
+			"new",
+			"blink",
+			"static_url",
+			"status_url",
+			" %}') format",
+			"') format",
+			"')",
+			"/fonts",
+			"fa",
+			"cookie",
+			"get_form_kwargs",
+			"ResourceType",
+			"can_access",
+			"title=\"",
+			"strip",
+			"blink",
+			"mute",
+			"oldStr",
+			"appStatus",
+			"conf",
+			"debug",
+			"update",
+			"storage",
+			"fileSync",
+			"filesync",
+			"error",
+			"Error",
+			"connected",
+			"\"can_access_devicestatus\"),",
+			"progress",
+			"storage",
+			"...",
+			"allowed",
+			"appearance",
+			"update appearance",
+			"resource",
+			"resourcecreate",
+			"Hosts",
+			"cfrf",
+			"csrf",
+			"CSRF",
+			"changing",
+			"ifChecked",
+			"-right",
+			"updateBtnState",
+			"new tilePr",
+			"tileProto",
+			"heights",
+			"tallest",
+			"normalizeHeights",
+			"update",
+			"spanID",
+			"btnCheckboxClass",
+			"fa-sign-out",
+			"button-checkbox",
+			"btn btn-default",
+			"serverCard",
+			"header",
+			"device.hostName",
+			"new",
+			"deviceOld",
+			"deviceCurrent",
+			"json['objects']",
+			"deviceDisplayManagerInst",
+			"active",
+			"is active",
+			"card-title",
+			".serverCard",
+			".serverCard ",
+			".card-title",
+			"outline",
+			"serverCard",
+			"server",
+			"serverCard",
+			"received",
+			"inactive",
+			"bg-inverse",
+			".navbar-dark",
+			".nav-dark",
+			"updatemanage",
+			"updateManager",
+			"getObjectKeys",
+			"navbar-dark",
+			"navbar-custom",
+			"navbar-custome",
+			"navbar-da",
+			"navbar-dark",
+			"navbar-cus",
+			"navbar-custom",
+			"navbar-cust",
+			".navbar-footer",
+			".navbar",
+			"remove",
+			"warning",
+			"  == ",
+			"delete-me",
+			"{{device.hostName}}",
+			"iconStr",
+			"warning",
+			"collapseOne",
+			"headingOne",
+			"resourcetype",
+			"resourcetypekey",
+			"adapter",
+			"STATICFILES_STORAGESTATICFILES_STORAGE",
+			"s3utils.py",
+			"software_update_list"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\"#\"+obj[i]['hostName']",
+			" %}\") format",
+			" %}') format",
+			" %}')",
+			"{% static \"/fonts",
+			"\"can_access_devicestatus\",",
+			"isChecked",
+			"-left",
+			"width",
+			"widest",
+			"normalizeWidth",
+			"btnID",
+			"viewStateManagerClass",
+			"button-checkbox custom-checkbox",
+			"btn",
+			"deviceHostName",
+			"this.deviceOld",
+			"this.deviceCurrent",
+			"obj",
+			"devDispInst",
+			"==",
+			"deviceHostName",
+			"collapse{{resource.hostName}}",
+			"heading{{resource.hostName}}",
+			"{{resource.hostName}}",
+			"sensoryweb",
+			"END",
+			"START"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "tests/test_rounding.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 615,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								445,
+								445
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "tests/test_employee.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 422,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								422,
+								422
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/payslip.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1868,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1868,
+								1868
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "src/config/tax_rate_backup/tax_rate_default.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 444,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								239,
+								239
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 865.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/employee.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1250,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								316,
+								316
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/tax_rate.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3024,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1308,
+								1308
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 31.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/rounding.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 268,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								268,
+								268
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 417,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								417,
+								417
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/process_csv.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2363,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								406,
+								406
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 9,
+					"file": "src/main.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1355,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								438,
+								438
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "src/result/result_20170426_120111.csv",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 143,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								143,
+								143
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "src/result/result_20170426_005548.csv",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 139,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								139,
+								139
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				2,
+				0,
+				3,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.33,
+			0.66,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 400.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"settings",
+				"src/settings.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 271.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

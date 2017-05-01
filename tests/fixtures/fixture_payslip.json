@@ -1,0 +1,8 @@
+{
+    "normal" : {"first_name":"John","last_name":"Smith","annual_salary":"60012","super_rate":"9","start_date":"1/1/85"},
+    "negative_salary" : {"first_name":"John","last_name":"Smith","annual_salary":"-60012","super_rate":"9","start_date":"1/1/85"},
+    "non_integer_salary":{"first_name":"John","last_name":"Smith","annual_salary":"60012.5","super_rate":"9","start_date":"1/1/85"},
+    "negative_non_integer_salary":{"first_name":"John","last_name":"Smith","annual_salary":"-60012.5","super_rate":"9","start_date":"1/1/85"},
+    "nagative_super_rate":{"first_name":"John","last_name":"Smith","annual_salary":"60012","super_rate":"-9","start_date":"1/1/85"},
+    "excessive_super_rate":{"first_name":"John","last_name":"Smith","annual_salary":"60012","super_rate":"51","start_date":"1/1/85"}
+}
