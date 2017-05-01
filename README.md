@@ -24,8 +24,9 @@ Features in this exercise
 ------------
 - Re-usable & Extendable. TaxRate module provides JSON format outputs. Therefore it is more reusable
 - Easy to maintain and debug: loose-coupled modules well orchestrated together
-- Well documented. Beside inline comments and easy-to-understand names. Infrastructure has been setup on 'ReadTheDocs' site which is popular choice for open-source projects. http://coding-execrise-tax-calculator.readthedocs.io/en/latest/
 - Readability. Following best practices in Python: PEP-8 complied.
+- Include Travis-CI for auto-testing purpose. Travis-CI is excellent choice as it is free for open-source projects and work seamlessly with Github where this project is hosted on.
+- Wrap the project in Docker Container. The Docker-Container can make others get this project up and running painlessly, much easier than ask people who are not from Python world to setup Python specific environment, such as Pip, and installing dependencies for the project. Also, it reflects current trend of 'Containerization' & Devops.
 
 Assumptions
 ------------
@@ -47,14 +48,13 @@ Test Mannually
 TO-DO
 ------------
 - Event logging module that takes note of unexpected events.
-- Wrap the project in Docker Container. The Docker-Container can make others get this project up and running painlessly, much easier than ask people who are not from Python world to setup Python specific environment, such as Pip, and installing dependencies for the project. Also, it reflects current trend of 'Containerization' & Devops.
-- Include Travis-CI for auto-testing purpose. Travis-CI is excellent choice as it is free for open-source projects and work seamlessly with Github where this project is hosted on.
+- Well documented. Beside inline comments and easy-to-understand names. Infrastructure has been setup on 'ReadTheDocs' site which is popular choice for open-source projects. http://coding-execrise-tax-calculator.readthedocs.io/en/latest/
 
 Problem Description
 ------------
 
 The Problem: Employee Monthly Payslip Generation
-----------------------------------------------------------------------------------
+
 When input the employee's details: first name, last name, annual salary (positive integer) and super rate (0% - 50% inclusive), payment start date, the program should generate payslip information with the name, pay period, gross income, income tax, net income and super.
 
 The calculation details are as follows:
@@ -95,5 +95,4 @@ Output:
 full name, pay period, gross income, income tax, net income, super
 David Rudd,March,5004,922,4082,450
 Ryan Chen,April,10000,2696,7304,1000
-----------------------------------------------------------------------------------
 End of Problem.
