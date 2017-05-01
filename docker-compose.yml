@@ -1,0 +1,11 @@
+app:
+  build: .
+  volumes:
+    - .:/code
+  command: python ./src/main.py
+
+test:
+  build: .
+  volumes:
+    - .:/code
+  command: nosetests

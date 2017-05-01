@@ -13,16 +13,23 @@ Requirements
 - virtualenv
 
 
-- Tutorial for setup environment can be found here: https://hackercodex.com/guide/python-development-environment-on-mac-osx/
+## Running the calculator
+### Using Docker
+#### Before the Docker Compose commands below are used, you'll need to build the Docker image first with:
+`docker-compose build`
+#### Run the application
+`docker-compose run app`
+#### Run the test suite (Nosetests, unittest)
+`docker-compose run test`
+
+### Manual Setup
 - For Mac users `sudo easy_install pip`.
 - `pip install virtualenv`
-- start your virtualenv by following tutorial http://sourabhbajaj.com/mac-setup/Python/virtualenv.html
 - Once your virtualenv is up and running. run: `pip install -r requirements.txt`
-- `python main.py`
+- `python src/main.py`
 
 Features in this exercise
 ------------
-- Re-usable & Extendable. TaxRate module provides JSON format outputs. Therefore it is more reusable
 - Easy to maintain and debug: loose-coupled modules well orchestrated together
 - Readability. Following best practices in Python: PEP-8 complied.
 - Include Travis-CI for auto-testing purpose. Travis-CI is excellent choice as it is free for open-source projects and work seamlessly with Github where this project is hosted on.
@@ -39,11 +46,10 @@ Assumptions
 Expected Results
 ------------
 - Output csv file with time stamp can be found in programs 'result' folder.
-- Recently generated tax rate JSON file can be found in Config/tax_rate_backup folder.
 
 Test Mannually
 =====
-- Simply run `nosetests` while in the root folder
+- Simply run `nosetests` while in the root directory
 
 TO-DO
 ------------
