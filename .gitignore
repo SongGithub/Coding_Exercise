@@ -1,4 +1,6 @@
-# *.sublime-project
+# sublime-text related file
+*.sublime-project
+*.sublime-workspace
 
 # project related
 result/

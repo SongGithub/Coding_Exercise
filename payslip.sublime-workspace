@@ -520,10 +520,11 @@
 	"buffers":
 	[
 		{
-			"file": "tests/test_rounding.py",
+			"file": "src/main.py",
 			"settings":
 			{
-				"buffer_size": 615,
+				"buffer_size": 535,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -537,36 +538,11 @@
 			}
 		},
 		{
-			"file": "src/result/result_20170501_152111.csv",
+			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 143,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": ".travis.yml",
-			"settings":
-			{
-				"buffer_size": 151,
+				"buffer_size": 4667,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "docker-compose.yml",
-			"settings":
-			{
-				"buffer_size": 136,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "tests/test_payslip.py",
-			"settings":
-			{
-				"buffer_size": 2390,
 				"line_ending": "Unix"
 			}
 		},
@@ -574,59 +550,8 @@
 			"file": "tests/test_process_csv.py",
 			"settings":
 			{
-				"buffer_size": 7655,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/main.py",
-			"settings":
-			{
-				"buffer_size": 535,
+				"buffer_size": 7653,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/process_csv.py",
-			"settings":
-			{
-				"buffer_size": 4100,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/tax_rate.py",
-			"settings":
-			{
-				"buffer_size": 2736,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "README.md",
-			"settings":
-			{
-				"buffer_size": 4277,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/settings.py",
-			"settings":
-			{
-				"buffer_size": 571,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/config/tax_rate_backup/tax_rate_default.json",
-			"settings":
-			{
-				"buffer_size": 444,
 				"line_ending": "Unix"
 			}
 		}
@@ -700,24 +625,35 @@
 	"expanded_folders":
 	[
 		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip",
-		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/result",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/config",
 		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src",
-		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/config/tax_rate_backup",
-		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/tests",
-		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/tests/fixtures"
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/tests"
 	],
 	"file_history":
 	[
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/tests/test_employee.py",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/tests/test_payslip.py",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/tax_rate.py",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/process_csv.py",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/employee.py",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/payslip.py",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/result/result_20170501_152111.csv",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/tests/test_rounding.py",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/.travis.yml",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/docker-compose.yml",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/main.py",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/__init__.py",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/Dockerfile",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/tests/test_tax_rate.py",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/README.md",
+		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/settings.py",
 		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/requirements.txt",
 		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/result/result_20170502_120319.csv",
 		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/result/result_20170502_112816.csv",
-		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/Dockerfile",
 		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/.gitignore",
-		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/README.md",
 		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/setup.py",
 		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/config/tax_rate_backup/tax_rate_default.json",
 		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/result/result_20170502_000642.csv",
-		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/process_csv.py",
 		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/tests/test_process_csv.py",
 		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/tests/fixtures/invalid_inputs.csv",
 		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/tests/fixtures/result_20100101_121212.csv",
@@ -729,23 +665,15 @@
 		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/tests/fixtures/result_20170501_215624.csv",
 		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/tests/fixtures/result_20170501_214659.csv",
 		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/rounding.py",
-		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/tax_rate.py",
-		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/payslip.py",
 		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/tests/fixtures/fixture_payslip.json",
 		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/tests/fixtures/input.csv",
 		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/tests/fixtures/fixture_process_csv.json",
-		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/tests/test_employee.py",
 		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/config/input.csv",
-		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/employee.py",
-		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/tests/test_payslip.py",
 		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/result/result_20170501_185302.csv",
 		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/result/result_20170501_171125.csv",
 		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/result/result_20170501_152506.csv",
 		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/result/result_20170426_005548.csv",
 		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/result/result_20170426_120111.csv",
-		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/settings.py",
-		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/tests/test_tax_rate.py",
-		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/tests/test_rounding.py",
 		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/result/result_20170427_001637.csv",
 		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/result/result_20170426_141524.csv",
 		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/src/result/result_20170426_115005.csv",
@@ -761,7 +689,6 @@
 		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/payslip_generator/tax_rate.py",
 		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/payslip_generator/calculate_payslips.py",
 		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/tests/test_payslip_functions.py",
-		"/Users/song/studyspaces/code_tests/MYOB_code_exercise_Payslip/.travis.yml",
 		"/Users/song/Downloads/emotionConfig (1).json",
 		"/Volumes/LUKAS/log.bin",
 		"/Volumes/LUKAS/DrvInfo/lukas_000.drv",
@@ -831,11 +758,7 @@
 		"/Users/song/workspaces/digital_falcon/sensoryweb/.gitignore",
 		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/static/css/project.css",
 		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/templates/device_resource_create_multiple.html",
-		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/static/css/fonts.css",
-		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/static/js/resource_create.js",
-		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/forms.py",
-		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/urls.py",
-		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/views.py"
+		"/Users/song/workspaces/digital_falcon/sensoryweb/sensorylab/static/css/fonts.css"
 	],
 	"find":
 	{
@@ -1046,32 +969,30 @@
 			[
 				{
 					"buffer": 0,
-					"file": "tests/test_rounding.py",
+					"file": "src/main.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 615,
+						"buffer_size": 535,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								615,
-								615
+								176,
+								176
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1087,8 +1008,8 @@
 						"selection":
 						[
 							[
-								1103,
-								1103
+								1625,
+								1625
 							]
 						],
 						"settings":
@@ -1106,259 +1027,19 @@
 				},
 				{
 					"buffer": 2,
-					"file": "src/result/result_20170501_152111.csv",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 143,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								143,
-								143
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": ".travis.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 151,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								151,
-								151
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "docker-compose.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 136,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								136,
-								136
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "tests/test_payslip.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2390,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1458,
-								1458
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "tests/test_process_csv.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7655,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4995,
-								4995
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1173.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 5,
-			"sheets":
-			[
-				{
-					"buffer": 7,
-					"file": "src/main.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 535,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								535,
-								535
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "src/process_csv.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4100,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3418,
-								3431
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 511.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "src/tax_rate.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2736,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								858,
-								858
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
 					"file": "README.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4277,
+						"buffer_size": 4667,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2468,
-								2468
+								394,
+								394
 							]
 						],
 						"settings":
@@ -1371,55 +1052,35 @@
 					},
 					"stack_index": 3,
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
 				{
-					"buffer": 11,
-					"file": "src/settings.py",
+					"buffer": 3,
+					"file": "tests/test_process_csv.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 571,
+						"buffer_size": 7653,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								404,
-								404
+								209,
+								209
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "src/config/tax_rate_backup/tax_rate_default.json",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 444,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
