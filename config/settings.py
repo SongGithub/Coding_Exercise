@@ -3,7 +3,6 @@ This file holds environmental variables for the project
 """
 import sys, os
 
-
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 SOURCE_DIR = os.path.join(BASE_DIR,'src')
 CONFIG_DIR = os.path.join(BASE_DIR, 'config')
