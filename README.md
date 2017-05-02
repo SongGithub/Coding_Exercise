@@ -4,22 +4,35 @@
 
 ## Running the calculator
 ### Using Docker
+
 #### Before the Docker Compose commands below are used, you'll need to build the Docker image first with:
 `docker-compose build`
+
 #### Run the application
 `docker-compose run app`
+
 #### Run the test suite (Nosetests, unittest)
 `docker-compose run test`
 
-### Manual Setup
-- For Mac users `sudo easy_install pip`.
+### Without Docker
+#### Setup the application
+- For Mac users `sudo easy_install pip`
 - `pip install virtualenv`
 - Once your virtualenv is up and running. run: `pip install -r requirements.txt`
 - `python src/main.py`
 
-### Running the test suite
+#### Running the test suite
 - Simply run `nosetests` while in the root directory
 - run `nosetests --with-coverage` to generate coverage reports
+
+
+### Configure the application
+#### Inputs
+    - You may find `input.csv` inside `Config` folder which is located at the root directory
+    - Then you can add/modify/remove rows from the data fields
+#### Environment Setup
+    - You may find `settings.py` located at the root directory
+    - Then you may configure environmental variables for the application
 
 Features in this exercise
 ------------

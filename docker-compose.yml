@@ -1,11 +1,13 @@
-app:
-  build: .
-  volumes:
-    - .:/code
-  command: python ./src/main.py
 
 test:
   build: .
   volumes:
     - .:/code
-  command: nosetests
+  command: nosetests --with-coverage
+
+
+app:
+  build: .
+  volumes:
+    - .:/code
+  command: python ./src/main.py
