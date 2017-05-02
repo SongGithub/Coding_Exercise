@@ -1,17 +1,6 @@
 # Monthly Pay Calculator
 [![Build Status](https://travis-ci.org/SongGithub/Monthly-Pay-Calculator.svg?branch=master)](https://travis-ci.org/SongGithub/Monthly-Pay-Calculator)
-
-Running the calculator without Docker
-------------
-
-Requirements
-------------
-- Linux or Mac OS X
-- bash
-- Python 2.7.x
-- pip
-- virtualenv
-
+[![codecov](https://codecov.io/gh/SongGithub/Monthly-Pay-Calculator/branch/master/graph/badge.svg)](https://codecov.io/gh/SongGithub/Monthly-Pay-Calculator)
 
 ## Running the calculator
 ### Using Docker
@@ -28,6 +17,10 @@ Requirements
 - Once your virtualenv is up and running. run: `pip install -r requirements.txt`
 - `python src/main.py`
 
+### Running the test suite
+- Simply run `nosetests` while in the root directory
+- run `nosetests --with-coverage` to generate coverage reports
+
 Features in this exercise
 ------------
 - Easy to maintain and debug: loose-coupled modules well orchestrated together
@@ -35,21 +28,22 @@ Features in this exercise
 - Include Travis-CI for auto-testing purpose. Travis-CI is excellent choice as it is free for open-source projects and work seamlessly with Github where this project is hosted on.
 - Wrap the project in Docker Container. The Docker-Container can make others get this project up and running painlessly, much easier than ask people who are not from Python world to setup Python specific environment, such as Pip, and installing dependencies for the project. Also, it reflects current trend of 'Containerization' & Devops.
 
+
+Requirements
+------------
+- Linux or Mac OS X
+- bash
+- Python 2.7.x
+- pip
+
 Assumptions
 ------------
 - Input csv file has correct formatted content. Format: it should contain first name, last name, salary, super rate% (0 - 50) and payment start date (for instance: 31/12/16)
 - Input csv file path should be correctly listed in `settings.py`
-- Either ATO website service or the Default tax rate table file is available
-- ATO website HTML format is consistent as TaxRate.__get_taxrate_online__() module's codes. The code should be updated after ATO has dramatically updated its website HTML structure.
-
 
 Expected Results
 ------------
 - Output csv file with time stamp can be found in programs 'result' folder.
-
-Test Mannually
-=====
-- Simply run `nosetests` while in the root directory
 
 TO-DO
 ------------
@@ -58,7 +52,6 @@ TO-DO
 
 Problem Description
 ------------
-
 The Problem: Employee Monthly Payslip Generation
 
 When input the employee's details: first name, last name, annual salary (positive integer) and super rate (0% - 50% inclusive), payment start date, the program should generate payslip information with the name, pay period, gross income, income tax, net income and super.
