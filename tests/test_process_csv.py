@@ -5,8 +5,8 @@ from src.tax_rate import TaxRate
 from src.employee import Employee
 from payslip import Payslip
 
-import os,config.settings,datetime
-import unittest, string, random,csv
+import os,settings,datetime
+import unittest,string,random,csv
 
 
 class NewDate(datetime.datetime):

@@ -31,7 +31,7 @@
     - You may find `input.csv` inside `Config` folder which is located at the root directory
     - Then you can add/modify/remove rows from the data fields
 #### Environment Setup
-    - You may find `settings.py` located at the root directory
+    - You may find `settings.py` located at the src directory
     - Then you may configure environmental variables for the application
 
 Features in this exercise

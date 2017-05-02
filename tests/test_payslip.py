@@ -1,7 +1,8 @@
 from src.payslip import Payslip
 from src.employee import Employee
 from src.tax_rate import  TaxRate
-import os,config.settings,unittest,json
+import os,unittest,json
+import settings
 
 
 class test_payslip_functions(unittest.TestCase):

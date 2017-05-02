@@ -1,4 +1,4 @@
-import config.settings
+import settings
 from rounding import Rounding
 
 class Employee(object):

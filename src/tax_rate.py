@@ -3,8 +3,9 @@
  This module is developed for calculate tax rate.
  Author: Song Jin 2016
 """
-import json, os, config.settings
+import json, os
 from rounding import Rounding
+import settings
 
 class TaxRate(object):
     """

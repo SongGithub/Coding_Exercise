@@ -1,8 +1,7 @@
 """
     this module calculates varies of payslip numbers according to input
 """
-import calendar
-import re
+import calendar,re
 from tax_rate import TaxRate
 from rounding import Rounding
 
