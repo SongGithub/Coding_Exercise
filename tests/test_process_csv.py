@@ -5,7 +5,7 @@ from src.tax_rate import TaxRate
 from src.employee import Employee
 from payslip import Payslip
 
-import os,settings,datetime
+import os,config.settings,datetime
 import unittest, string, random,csv
 
 
