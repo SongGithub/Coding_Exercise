@@ -5,7 +5,7 @@ from employee import Employee
 from tax_rate import TaxRate
 from payslip import Payslip
 
-import csv,settings,datetime,os
+import csv,config.settings,datetime,os
 
 
 class ProcessCsvFile(object):

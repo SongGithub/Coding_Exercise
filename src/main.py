@@ -7,7 +7,7 @@
 """this module orchestrates the sub modules to perform the task"""
 
 from process_csv import ProcessCsvFile
-import settings,os
+import config.settings,os
 
 tax_rate_file_path = os.path.join(
         settings.TAX_RATE_BACKUP_PATH,
